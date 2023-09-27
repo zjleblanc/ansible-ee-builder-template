@@ -16,7 +16,7 @@ Ansible Execution Environment builder template repository. Instantiate your own 
 ### secrets
 
 | Name | Description |
-| --- | --- | --- |
+| --- | --- |
 | REGISTRY_PASSWORD | Tag to apply to each image built (in addition to commit hash) |
 | REDHAT_PASSWORD | Registry username for pushing images |
 | AH_TOKEN | Automation Hub token for replacing placeholder value in ansible.cfg |
