@@ -4,7 +4,13 @@ Ansible Execution Environment builder template repository. Instantiate your own 
 
 ## configuring the repository
 
-### variables
+Navigate to Settings > Under Security > View Secrets and Variables > Select Actions
+
+![add secrets](./attachments/add_secrets.png)
+<br><br>
+![add variables](./attachments/add_vars.png)
+
+## variables
 
 | Name | Description | Example |
 | --- | --- | --- |
@@ -13,7 +19,7 @@ Ansible Execution Environment builder template repository. Instantiate your own 
 | REGISTRY_USERNAME | Quay username for pushing to container registry | dev |
 | REDHAT_USERNAME | Red Hat username for pulling official base images | dev@redhat.com |
 
-### secrets
+## secrets
 
 | Name | Description |
 | --- | --- |
@@ -21,7 +27,7 @@ Ansible Execution Environment builder template repository. Instantiate your own 
 | REDHAT_PASSWORD | Registry username for pushing images |
 | AH_TOKEN | Automation Hub token for replacing placeholder value in ansible.cfg |
 
-## execution environments
+## definitions
 
 | EE Name | Purpose | Docs |
 | --- | --- | :---: |
