@@ -15,7 +15,7 @@ Navigate to Settings > Under Security > View Secrets and Variables > Select Acti
 | Name | Description | Example |
 | --- | --- | --- |
 | EE_IMAGE_TAG | Tag to apply to each image built (in addition to commit hash) | latest |
-| REGISTRY_URL | URL for registry used to host images | hub.example.com |
+| REGISTRY_URL | URL for registry used to host images | Hub:&nbsp;&nbsp;`hub.example.com`<br>Quay: `quay.io/zleblanc` |
 | REGISTRY_USERNAME | Quay username for pushing to container registry | dev |
 | REDHAT_USERNAME | Red Hat username for pulling official base images | dev@redhat.com |
 
