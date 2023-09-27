@@ -10,6 +10,8 @@ images:
 
 dependencies:
   galaxy:
+    # Recommended to always use specific versions of collections
+    # This utilizes the dependency mgmt purpose of collections
     collections:
       - name: ansible.windows
         version: 1.9.0
